@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FG AMBIENTES | Haute Ébénisterie & Design Exterior</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cinzel, Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        champagne: {
+                            50: '#FAF8F5',
+                            100: '#F5F0E6',
+                            200: '#E8DCB8',
+                            300: '#D9C38A',
+                            400: '#C5A059',
+                            500: '#B08B3E',
+                            600: '#8C6C2B',
+                        },
+                        dior: {
+                            purewhite: '#FFFFFF',
+                            cream: '#FAF8F5',
+                            softgray: '#F3F1EC',
+                            border: '#E5E0D8',
+                            textdark: '#111111',
+                            muted: '#666666',
+                        }
+                    },
+                    fontFamily: {
+                        cinzel: ['"Cinzel"', 'serif'],
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Montserrat"', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        'dior-widest': '0.3em',
+                        'dior-ultra': '0.45em',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Dior Haute Couture Minimal Scrollbar */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF8F5;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C5A059;
+        }
+
+        .gold-line {
+            background: linear-gradient(90deg, transparent 0%, #C5A059 50%, transparent 100%);
+        }
+    </style>
+</head>
+<body class="bg-dior-purewhite text-dior-textdark font-sans antialiased selection:bg-champagne-100 selection:text-dior-textdark">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-dior-cream text-champagne-600 text-[10px] tracking-dior-widest uppercase py-3 px-4 text-center border-b border-dior-border font-light">
+        <span class="inline-flex items-center gap-3">
+            <span class="w-1.5 h-1.5 rounded-full bg-champagne-400"></span>
+            SHOWROOM INTEGRADO AO ATELIÊ DE CRIAÇÃO • SINOP, MATO GROSSO
+        </span>
+    </div>
+
+    <!-- HEADER NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-dior-border">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 h-24 flex items-center justify-between">
+            
+            <!-- Brand Logo -->
+            <a href="#" class="flex flex-col items-start group">
+                <span class="font-cinzel text-xl sm:text-2xl font-light tracking-dior-widest text-dior-textdark group-hover:text-champagne-500 transition-colors">
+                    FG AMBIENTES
+                </span>
+                <span class="font-serif text-[10px] tracking-dior-ultra text-champagne-500 italic uppercase -mt-0.5">
+                    Móveis de Alto Padrão
+                </span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-10 text-[10px] uppercase tracking-dior-widest font-medium text-dior-muted">
+                <a href="#diferencial" class="hover:text-dior-textdark transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagne-400 hover:after:w-full after:transition-all">O Showroom</a>
+                <a href="#materiais" class="hover:text-dior-textdark transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagne-400 hover:after:w-full after:transition-all">Materiais</a>
+                <a href="#opcoes" class="hover:text-dior-textdark transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagne-400 hover:after:w-full after:transition-all">Como Comprar</a>
+                <a href="#faq" class="hover:text-dior-textdark transition-colors py-2 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagne-400 hover:after:w-full after:transition-all">Dúvidas</a>
+            </nav>
+
+            <!-- Primary WhatsApp CTA Top (No phone number in text) -->
+            <a href="https://wa.me/5566996521074?text=Olá,%20Gislene!%20Gostaria%20de%20um%20atendimento%20para%20meu%20projeto." 
+               target="_blank"
+               class="bg-dior-textdark hover:bg-champagne-500 text-white hover:text-dior-textdark px-6 py-3 text-[10px] uppercase tracking-dior-widest transition-all duration-500 flex items-center gap-3 border border-dior-textdark hover:border-champagne-500">
+                <i class="fa-brands fa-whatsapp text-emerald-400 text-sm"></i>
+                <span>Falar com Gislene</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HIGH-IMPACT DIOR HERO SECTION (PURCHASE-DRIVEN & ULTRA CLEAN) -->
+    <section class="relative bg-dior-purewhite text-dior-textdark py-16 sm:py-20 border-b border-dior-border">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            
+            <p class="font-cinzel text-[10px] sm:text-[11px] uppercase tracking-dior-ultra text-champagne-500 mb-4 font-semibold">
+                DESIGN EXTERNO & ESPAÇOS GOURMET • SINOP - MT
+            </p>
+
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-light text-dior-textdark mb-6 leading-[1.15] tracking-tight">
+                Transforme Seus Ambientes com a Elegância <br/>
+                <span class="italic font-normal text-champagne-500">e Resistência que Sua Casa Merece</span>
+            </h1>
+
+            <div class="w-16 h-[1px] gold-line mx-auto mb-8"></div>
+
+            <p class="max-w-3xl mx-auto text-dior-muted font-serif text-lg sm:text-xl font-light tracking-wide leading-relaxed mb-10">
+                Móveis refinados sob medida e pronta entrega para varandas, jardins e áreas de piscina. Produzidos com materiais resistentes ao sol e à chuva.
+            </p>
+
+            <!-- WhatsApp Actions (No Numbers Displayed) -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto">
+                
+                <!-- Main Contact: Gislene (Primary) -->
+                <a href="https://wa.me/5566996521074?text=Olá,%20Gislene!%20Gostaria%20de%20atendimento%20para%20móveis%20de%20alto%20padrão." 
+                   target="_blank"
+                   class="w-full sm:w-auto flex-1 bg-dior-textdark hover:bg-champagne-500 text-white hover:text-dior-textdark px-6 py-4 text-[10px] font-semibold uppercase tracking-dior-widest transition-all duration-500 shadow-lg flex items-center justify-center gap-3 group border border-dior-textdark">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-400 group-hover:text-dior-textdark transition-colors"></i>
+                    <span class="font-cinzel tracking-widest">Atendimento com Gislene</span>
+                </a>
+
+                <!-- Secondary Contact: Félix -->
+                <a href="https://wa.me/5566996487425?text=Olá,%20Félix!%20Gostaria%20de%20informações%20sobre%20os%20móveis%20FG%20Ambientes." 
+                   target="_blank"
+                   class="w-full sm:w-auto flex-1 bg-dior-cream hover:bg-dior-softgray text-dior-textdark border border-dior-border px-6 py-4 text-[10px] uppercase tracking-dior-widest transition-all duration-500 flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-600"></i>
+                    <span class="font-cinzel tracking-widest">Falar com Félix</span>
+                </a>
+
+            </div>
+
+            <!-- Location Note -->
+            <div class="mt-10 inline-flex items-center gap-3 text-[10px] text-dior-muted uppercase tracking-dior-widest bg-dior-cream px-5 py-2.5 border border-dior-border">
+                <i class="fa-solid fa-calendar-check text-champagne-500"></i>
+                <span>Showroom (Hora Marcada): R. dos Cravos, 1311 - Sinop, MT</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: DIRETO DA FÁBRICA (PURCHASE TRUST BUILDER) -->
+    <section id="diferencial" class="py-20 bg-dior-cream border-b border-dior-border">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="lg:col-span-5">
+                    <span class="font-cinzel text-[10px] uppercase tracking-dior-ultra text-champagne-500 font-semibold mb-3 block">
+                        COMPRA SEGURA & QUALIDADE GARANTIDA
+                    </span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-light text-dior-textdark tracking-wide mb-6">
+                        Da Fábrica Direto Para o Seu Projeto
+                    </h2>
+                    <div class="w-12 h-[1px] bg-champagne-400 mb-6"></div>
+                </div>
+                
+                <div class="lg:col-span-7 font-serif text-lg text-dior-muted font-light leading-relaxed space-y-4">
+                    <p>
+                        A <strong class="text-dior-textdark font-normal">FG Ambientes</strong> unificou seu showroom à fábrica em Sinop.
+                    </p>
+                    <p>
+                        Atendimento exclusivo com hora marcada. Assim você tem a oportunidade de testar o conforto das peças, conferir pessoalmente a resistência dos materiais e acompanhar o acabamento impecável antes de levar para a sua casa.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: ESSENTIAL MATERIALS -->
+    <section id="materiais" class="py-24 bg-dior-purewhite border-b border-dior-border">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16">
+            
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <span class="font-cinzel text-[10px] uppercase tracking-dior-ultra text-champagne-500 font-semibold mb-4 block">
+                    TECNOLOGIA & DURABILIDADE
+                </span>
+                <h2 class="font-serif text-4xl sm:text-5xl font-light text-dior-textdark tracking-wide">
+                    Materiais Feitos para Durar
+                </h2>
+                <p class="font-serif text-lg text-dior-muted font-light mt-4 tracking-wide">
+                    Desenvolvidos especialmente para resistir ao sol e à chuva mantendo a beleza e o conforto originais.
+                </p>
+                <div class="w-16 h-[1px] gold-line mx-auto mt-6"></div>
+            </div>
+
+            <!-- Material Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Material 1: Fibra Sintética -->
+                <div class="bg-dior-cream p-10 border border-dior-border hover:border-champagne-400 transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <span class="font-serif text-3xl text-champagne-500 italic block mb-6">01</span>
+                        <h3 class="font-cinzel text-base text-dior-textdark font-semibold uppercase tracking-wider mb-4">Fibra Sintética</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-8">
+                            Com tratamento especial contra raios UV, não resseca nem perde a cor com o tempo de exposição ao sol.
+                        </p>
+                    </div>
+                    <div class="border-t border-dior-border pt-4 text-[10px] uppercase tracking-dior-widest text-champagne-600 font-medium">
+                        Alta Resistência Solar
+                    </div>
+                </div>
+
+                <!-- Material 2: Tricô Náutico -->
+                <div class="bg-dior-cream p-10 border border-dior-border hover:border-champagne-400 transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <span class="font-serif text-3xl text-champagne-500 italic block mb-6">02</span>
+                        <h3 class="font-cinzel text-base text-dior-textdark font-semibold uppercase tracking-wider mb-4">Tricô Náutico</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-8">
+                            Proporciona um toque extremamente macio e confortável sem abrir mão da alta durabilidade e elegância.
+                        </p>
+                    </div>
+                    <div class="border-t border-dior-border pt-4 text-[10px] uppercase tracking-dior-widest text-champagne-600 font-medium">
+                        Máximo Conforto & Estilo
+                    </div>
+                </div>
+
+                <!-- Material 3: Corda Náutica -->
+                <div class="bg-dior-cream p-10 border border-dior-border hover:border-champagne-400 transition-all duration-500 flex flex-col justify-between">
+                    <div>
+                        <span class="font-serif text-3xl text-champagne-500 italic block mb-6">03</span>
+                        <h3 class="font-cinzel text-base text-dior-textdark font-semibold uppercase tracking-wider mb-4">Corda Náutica</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-8">
+                            Design leve e moderno com trançado firme de rápida secagem, perfeito para áreas de piscina e varandas.
+                        </p>
+                    </div>
+                    <div class="border-t border-dior-border pt-4 text-[10px] uppercase tracking-dior-widest text-champagne-600 font-medium">
+                        Secagem Rápida & Leveza
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Technical Features -->
+            <div class="mt-16 bg-dior-cream p-8 sm:p-12 border border-dior-border grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h4 class="font-cinzel text-lg text-dior-textdark font-medium uppercase tracking-wider mb-2">Estruturas & Revestimentos Impermeáveis</h4>
+                    <p class="font-serif text-dior-muted text-base font-light">Engenharia pensada para o clima de Mato Grosso.</p>
+                </div>
+                <ul class="space-y-3 font-serif text-base text-dior-textdark font-light">
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-champagne-500 text-xs"></i>
+                        <span><strong>Estruturas:</strong> Alumínio de alta densidade com pintura eletrostática e madeira de eucalipto tratada.</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-champagne-500 text-xs"></i>
+                        <span><strong>Tecidos:</strong> Revestimentos e corino impermeáveis de fácil manutenção.</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: HOW TO BUY / OPTIONS -->
+    <section id="opcoes" class="py-24 bg-dior-cream border-b border-dior-border">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16">
+            
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <span class="font-cinzel text-[10px] uppercase tracking-dior-ultra text-champagne-500 font-semibold mb-4 block">
+                    OPÇÕES DE COMPRA
+                </span>
+                <h2 class="font-serif text-4xl sm:text-5xl font-light text-dior-textdark tracking-wide">
+                    Encontre a Solução Ideal para Você
+                </h2>
+                <p class="font-serif text-lg text-dior-muted font-light mt-4">
+                    Escolha como deseja transformar o seu espaço com a FG Ambientes.
+                </p>
+                <div class="w-16 h-[1px] gold-line mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Sob Medida -->
+                <div class="bg-dior-purewhite p-10 border border-dior-border flex flex-col justify-between">
+                    <div>
+                        <span class="font-cinzel text-[10px] uppercase tracking-dior-widest text-champagne-500 font-semibold block mb-4">OPÇÃO 01</span>
+                        <h3 class="font-serif text-2xl text-dior-textdark font-normal mb-4">Projetos Sob Medida</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-6">
+                            Móveis fabricados nas dimensões e cores exatas do seu espaço ou projeto arquitetônico.
+                        </p>
+                    </div>
+                    <ul class="font-serif text-sm text-dior-muted space-y-2 border-t border-dior-border pt-4">
+                        <li>• Personalização total de cores e tramas</li>
+                        <li>• Ajuste sob medida para seu ambiente</li>
+                    </ul>
+                </div>
+
+                <!-- Pronta Entrega -->
+                <div class="bg-dior-purewhite p-10 border border-dior-border flex flex-col justify-between">
+                    <div>
+                        <span class="font-cinzel text-[10px] uppercase tracking-dior-widest text-champagne-500 font-semibold block mb-4">OPÇÃO 02</span>
+                        <h3 class="font-serif text-2xl text-dior-textdark font-normal mb-4">Pronta Entrega</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-6">
+                            Modelos disponíveis em nosso showroom para quem busca agilidade e entrega imediata.
+                        </p>
+                    </div>
+                    <ul class="font-serif text-sm text-dior-muted space-y-2 border-t border-dior-border pt-4">
+                        <li>• Agilidade no envio</li>
+                        <li>• Peças disponíveis para testar no showroom</li>
+                    </ul>
+                </div>
+
+                <!-- Reforma -->
+                <div class="bg-dior-purewhite p-10 border border-dior-border flex flex-col justify-between">
+                    <div>
+                        <span class="font-cinzel text-[10px] uppercase tracking-dior-widest text-champagne-500 font-semibold block mb-4">OPÇÃO 03</span>
+                        <h3 class="font-serif text-2xl text-dior-textdark font-normal mb-4">Reforma & Restauração</h3>
+                        <p class="font-serif text-dior-muted text-base font-light leading-relaxed mb-6">
+                            Renove seus móveis antigos substituindo a fibra, corda ou pintura por tramas novíssimas de alta qualidade.
+                        </p>
+                    </div>
+                    <ul class="font-serif text-sm text-dior-muted space-y-2 border-t border-dior-border pt-4">
+                        <li>• Troca de trançado e estofamento</li>
+                        <li>• Nova pintura eletrostática</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ (PERGUNTAS FREQUENTES) -->
+    <section id="faq" class="py-24 bg-dior-purewhite border-b border-dior-border">
+        <div class="max-w-4xl mx-auto px-6 lg:px-12">
+            
+            <div class="text-center mb-16">
+                <span class="font-cinzel text-[10px] uppercase tracking-dior-ultra text-champagne-500 font-semibold mb-3 block">
+                    ESCLARECIMENTOS
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-light text-dior-textdark tracking-wide">
+                    Perguntas Frequentes
+                </h2>
+                <div class="w-12 h-[1px] gold-line mx-auto mt-6"></div>
+            </div>
+
+            <div class="space-y-6">
+                
+                <!-- FAQ Item 1 -->
+                <div class="border border-dior-border p-6 sm:p-8 bg-dior-cream hover:border-champagne-400 transition-colors">
+                    <h3 class="font-serif text-xl sm:text-2xl text-dior-textdark font-normal mb-3 flex items-center gap-3">
+                        <i class="fa-solid fa-droplet text-champagne-500 text-sm"></i>
+                        O que é a pintura eletrostática?
+                    </h3>
+                    <p class="font-serif text-dior-muted text-base font-light leading-relaxed">
+                        É um revestimento de alta tecnologia aplicado nas estruturas de alumínio. Diferente da pintura comum, ela cria uma camada de altíssima proteção contra corrosão, ferrugem e desgastes climáticos, sendo ideal para móveis que ficam expostos ao sol e à chuva.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-dior-border p-6 sm:p-8 bg-dior-cream hover:border-champagne-400 transition-colors">
+                    <h3 class="font-serif text-xl sm:text-2xl text-dior-textdark font-normal mb-3 flex items-center gap-3">
+                        <i class="fa-solid fa-tag text-champagne-500 text-sm"></i>
+                        Quais são as condições de pagamento?
+                    </h3>
+                    <p class="font-serif text-dior-muted text-base font-light leading-relaxed">
+                        Para compras realizadas à vista, oferecemos <strong>5% de desconto especial</strong>. Também disponibilizamos opções flexíveis de parcelamento no cartão de crédito. Consulte nossa equipe para encontrar a melhor condição para você.
+                    </p>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-dior-border p-6 sm:p-8 bg-dior-cream hover:border-champagne-400 transition-colors">
+                    <h3 class="font-serif text-xl sm:text-2xl text-dior-textdark font-normal mb-3 flex items-center gap-3">
+                        <i class="fa-solid fa-comments text-champagne-500 text-sm"></i>
+                        Como funciona a consultoria da FG Ambientes?
+                    </h3>
+                    <p class="font-serif text-dior-muted text-base font-light leading-relaxed">
+                        Nossa equipe auxilia em todo o processo criativo. Ajudamos você a definir os melhores tecidos, tramas e dimensões para o seu espaço, garantindo que o móvel final esteja em perfeita harmonia com o seu ambiente e necessidades.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: DIRECT CONTACT & LOCATION -->
+    <section id="contato" class="py-24 bg-dior-purewhite">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                
+                <!-- Contact Left -->
+                <div class="lg:col-span-6">
+                    <span class="font-cinzel text-[10px] uppercase tracking-dior-ultra text-champagne-500 font-semibold mb-4 block">
+                        ATENDIMENTO PERSONALIZADO
+                    </span>
+                    <h2 class="font-serif text-4xl sm:text-5xl font-light text-dior-textdark tracking-wide mb-6">
+                        Fale com Nossa Equipe
+                    </h2>
+                    <p class="font-serif text-lg text-dior-muted font-light leading-relaxed mb-10">
+                        Envie uma mensagem para tirar dúvidas, solicitar um orçamento ou agendar uma visita ao nosso showroom.
+                    </p>
+
+                    <div class="space-y-6">
+                        
+                        <!-- Primary Contact: Gislene (No phone number shown in button text) -->
+                        <a href="https://wa.me/5566996521074?text=Olá,%20Gislene!%20Gostaria%20de%20solicitar%20um%20orçamento%20de%20móveis." 
+                           target="_blank"
+                           class="flex items-center justify-between p-6 bg-dior-cream border-l-4 border-champagne-500 hover:border-dior-textdark transition-all duration-300 group">
+                            <div class="flex items-center gap-5">
+                                <div class="w-12 h-12 rounded-full bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-xl">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <div class="font-cinzel text-[9px] uppercase tracking-dior-widest text-champagne-600 font-bold">Atendimento Principal</div>
+                                    <div class="font-serif text-2xl font-light text-dior-textdark">Falar com Gislene</div>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-champagne-500 group-hover:translate-x-2 transition-transform"></i>
+                        </a>
+
+                        <!-- Secondary Contact: Félix (No phone number shown in button text) -->
+                        <a href="https://wa.me/5566996487425?text=Olá,%20Félix!%20Gostaria%20de%20informações%20sobre%20os%20móveis." 
+                           target="_blank"
+                           class="flex items-center justify-between p-6 bg-dior-cream border border-dior-border hover:border-champagne-400 transition-all duration-300 group">
+                            <div class="flex items-center gap-5">
+                                <div class="w-12 h-12 rounded-full bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-xl">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <div class="font-cinzel text-[9px] uppercase tracking-dior-widest text-dior-muted">Atendimento Secundário</div>
+                                    <div class="font-serif text-2xl font-light text-dior-textdark">Falar com Félix</div>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-dior-muted group-hover:text-champagne-500 group-hover:translate-x-2 transition-transform"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Location Right -->
+                <div class="lg:col-span-6 bg-dior-cream p-10 lg:p-14 border border-dior-border">
+                    <span class="font-cinzel text-[10px] uppercase tracking-dior-widest text-champagne-500 font-semibold block mb-3">
+                        VENHA NOS CONHECER
+                    </span>
+                    <h3 class="font-serif text-3xl text-dior-textdark font-light mb-6">
+                        Showroom & Fábrica
+                    </h3>
+                    
+                    <div class="space-y-4 font-serif text-lg text-dior-muted font-light mb-10">
+                        <p class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot text-champagne-500 mt-1"></i>
+                            <span class="text-dior-textdark">R. dos Cravos, 1311 - Jardim das Violetas, Sinop - MT</span>
+                        </p>
+                        <p class="flex items-start gap-4">
+                            <i class="fa-solid fa-calendar-check text-champagne-500 mt-1"></i>
+                            <span class="font-medium text-dior-textdark">Atendimento presencial exclusivamente com hora marcada.</span>
+                        </p>
+                        <p class="flex items-start gap-4">
+                            <i class="fa-solid fa-store text-champagne-500 mt-1"></i>
+                            <span>Conheça de perto nosso processo de produção e a qualidade dos nossos materiais.</span>
+                        </p>
+                    </div>
+
+                    <!-- Google Maps CTA -->
+                    <a href="https://maps.app.goo.gl/c7DD3VfhZYvpaFuM7" 
+                       target="_blank" 
+                       class="w-full inline-flex items-center justify-center gap-4 bg-dior-textdark hover:bg-champagne-500 text-white hover:text-dior-textdark py-5 px-8 text-[10px] uppercase tracking-dior-widest transition-all duration-500 border border-dior-textdark">
+                        <i class="fa-solid fa-map-location-dot text-base"></i>
+                        <span>Ver Localização no Google Maps</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER WITH BACK TO TOP BUTTON -->
+    <footer class="bg-dior-cream text-dior-muted py-16 border-t border-dior-border text-[11px] font-light">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-8">
+            
+            <div class="flex flex-col items-center md:items-start">
+                <span class="font-cinzel text-lg text-dior-textdark tracking-dior-widest">FG AMBIENTES</span>
+                <span class="font-serif text-[10px] text-champagne-500 uppercase tracking-dior-ultra">Móveis de Alto Padrão • Sinop, MT</span>
+            </div>
+
+            <p class="text-center font-serif text-sm text-dior-muted">
+                © FG Ambientes. Todos os direitos reservados.
+            </p>
+
+            <!-- BACK TO TOP BUTTON -->
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" 
+                    class="bg-white hover:bg-dior-textdark text-dior-textdark hover:text-white px-6 py-3 border border-dior-border hover:border-dior-textdark transition-all duration-300 uppercase tracking-dior-widest text-[10px] flex items-center gap-2 group">
+                <span>Voltar ao Topo</span>
+                <i class="fa-solid fa-arrow-up text-xs group-hover:-translate-y-1 transition-transform"></i>
+            </button>
+
+        </div>
+    </footer>
+
+    <!-- Mobile Floating WhatsApp Button (Gislene Primary) -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/5566996521074?text=Olá,%20Gislene!%20Gostaria%20de%20atendimento%20para%20móveis%20FG%20Ambientes." 
+           target="_blank" 
+           class="bg-dior-textdark hover:bg-champagne-500 text-white hover:text-dior-textdark p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 border border-white/20"
+           title="Falar com Gislene no WhatsApp">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+</body>
+</html>
